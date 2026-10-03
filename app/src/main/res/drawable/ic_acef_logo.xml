@@ -1,0 +1,29 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+    <!-- Golden Geometric Islamic Emblem -->
+    <!-- Background Circle subtle glow -->
+    <path
+        android:fillColor="#1B6447"
+        android:pathData="M48,48m-44,0a44,44 0,1 1,88 0a44,44 0,1 1,-88 0" />
+    <path
+        android:strokeColor="#D4AF37"
+        android:strokeWidth="2.5"
+        android:pathData="M48,48m-42,0a42,42 0,1 1,84 0a42,42 0,1 1,-84 0" />
+    <!-- 8-Pointed Star Motif Behind -->
+    <path
+        android:strokeColor="#D4AF37"
+        android:strokeWidth="1.5"
+        android:fillColor="#0D3826"
+        android:pathData="M48,16 L56,36 L76,28 L68,48 L84,56 L64,64 L72,84 L52,76 L48,92 L44,76 L24,84 L32,64 L12,56 L28,48 L20,28 L40,36 Z" />
+    <!-- Golden Crescent Moon -->
+    <path
+        android:fillColor="#D4AF37"
+        android:pathData="M52,30 C40,30 32,38 32,50 C32,62 42,70 54,70 C59,70 63,68 66,65 C52,65 44,56 44,46 C44,38 48,32 52,30 Z" />
+    <!-- Star within Crescent -->
+    <path
+        android:fillColor="#FFE885"
+        android:pathData="M59,38 L61,43 L66,43 L62,46 L64,51 L59,48 L54,51 L56,46 L52,43 L57,43 Z" />
+</vector>

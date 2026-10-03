@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Platform & Info -->
+    <string name="app_name">آصف</string>
+    <string name="app_brand_arabic">تطبيق آصف الإسلامي</string>
+    <string name="app_tagline">أذان تلقائي، أذكار عائمة، وتفسير بالذكاء الاصطناعي</string>
+    <string name="app_developer">محمد آصف ڨرارة</string>
+    <string name="app_developer_title">إعداد وتطوير: محمد آصف ڨرارة</string>
+    <string name="app_developer_desc">مهندس برمجيات وتطبيقات أندرويد • الجزائر</string>
+    <string name="app_version_label">الإصدار 1.0.0 • Asif Islamic App</string>
+    <string name="app_about_title">حول تطبيق آصف</string>
+    <string name="app_about_description">تطبيق إسلامي شامل صُمم لخدمة المسلم في يومه وليلته: حساب دقيق لمواقيت الصلاة، تشغيل تلقائي للأذان والإقامة، مصحف كريم بالقراءات مع تحميل أوفلاين كامل، أذكار عائمة فوق الشاشة، والمستشار الإسلامي الذكي بالذكاء الاصطناعي.</string>
+    <string name="share_app_text">تطبيق آصف الإسلامي - رفيقك اليومي للصلوات والقرآن والأذكار: أذان تلقائي، أذكار عائمة، واستشارات شرعية ذكية. إعداد وتطوير: محمد آصف ڨرارة.</string>
+    <string name="share_app_title">مشاركة تطبيق آصف</string>
+    <string name="close">إغلاق</string>
+    <string name="cancel">إلغاء</string>
+    <string name="ok">موافق</string>
+    <string name="save">حفظ</string>
+    <string name="delete">حذف</string>
+    <string name="confirm">تأكيد</string>
+    <string name="back">رجوع</string>
+    <string name="home">الرئيسية</string>
+    <string name="search">بحث</string>
+    <string name="copy">نسخ</string>
+    <string name="copied_to_clipboard">تم النسخ إلى الحافظة بنجاح</string>
+    <string name="share">مشاركة</string>
+    <string name="retry">إعادة المحاولة</string>
+    <string name="loading">جاري التحميل…</string>
+    <string name="success">تمت العملية بنجاح</string>
+
+    <!-- Notification Channels -->
+    <string name="channel_adhan_name">تنبيهات الأذان ومواقيت الصلاة</string>
+    <string name="channel_adhan_desc">تنبيهات دخول أوقات الصلوات المفروضة مع تشغيل الأذان تلقائياً</string>
+    <string name="channel_iqama_name">تنبيهات وقت الإقامة</string>
+    <string name="channel_iqama_desc">تنبيهات وصول موعد إقامة الصلاة مع التكبيرات</string>
+    <string name="channel_azkar_name">أذكار وتذكيرات</string>
+    <string name="channel_azkar_desc">تذكير يومي مبارك بأذكار الصباح والمساء</string>
+    <string name="channel_quran_name">تذكير الورد القرآني</string>
+    <string name="channel_quran_desc">تذكير يومي لتلاوة القرآن وتدبر آياته</string>
+    <string name="channel_overlay_name">فقاعة الأذكار العائمة</string>
+    <string name="channel_overlay_desc">خدمة عرض نافذة الأذكار العائمة أثناء استخدام التطبيقات الأخرى</string>
+
+    <!-- Notifications Actions & Titles -->
+    <string name="stop_audio">إيقاف الصوت</string>
+    <string name="stop_adhan">إيقاف الأذان</string>
+    <string name="prayer_now_title">حان الآن موعد أذان %s</string>
+    <string name="prayer_now_text">موعد صلاة %1$s (%2$s) %3$s</string>
+    <string name="prayer_auto_playing_tag">• جاري تشغيل الأذان تلقائياً</string>
+    <string name="iqama_now_title">حان الآن موعد إقامة صلاة %s</string>
+    <string name="iqama_now_text">أُقيمت صلاة %1$s (%2$s) %3$s</string>
+    <string name="iqama_auto_playing_tag">• جاري تشغيل التكبيرات</string>
+    <string name="morning_azkar_title">أذكار الصباح المباركة</string>
+    <string name="evening_azkar_title">أذكار المساء المباركة</string>
+    <string name="quran_reminder_title">وردك القرآني اليومي</string>
+
+    <!-- Navigation Bar Items -->
+    <string name="nav_home">الرئيسية</string>
+    <string name="nav_prayer_times">المواقيت</string>
+    <string name="nav_quran">القرآن</string>
+    <string name="nav_azkar">الأذكار</string>
+    <string name="nav_ai_scholar">المستشار الذكي</string>
+
+    <!-- Drawer / Quick Tools -->
+    <string name="tool_qibla">القبلة</string>
+    <string name="tool_tasbih">السبحة</string>
+    <string name="tool_hadith">الأحاديث</string>
+    <string name="tool_settings">الإعدادات</string>
+    <string name="tool_floating_azkar">الأذكار العائمة</string>
+
+    <!-- Prayers Names -->
+    <string name="prayer_fajr">الفجر</string>
+    <string name="prayer_sunrise">الشروق</string>
+    <string name="prayer_dhuhr">الظهر</string>
+    <string name="prayer_asr">العصر</string>
+    <string name="prayer_maghrib">المغرب</string>
+    <string name="prayer_isha">العشاء</string>
+    <string name="prayer_iqama">الإقامة</string>
+    <string name="next_prayer">الصلاة القادمة</string>
+    <string name="time_remaining">متبقي</string>
+    <string name="time_passed">مضى عليها</string>
+    <string name="iqama_after">الإقامة بعد</string>
+    <string name="now">الآن</string>
+
+    <!-- Hijri Months -->
+    <string name="hijri_month_1">محرم</string>
+    <string name="hijri_month_2">صفر</string>
+    <string name="hijri_month_3">ربيع الأول</string>
+    <string name="hijri_month_4">ربيع الثاني</string>
+    <string name="hijri_month_5">جمادى الأولى</string>
+    <string name="hijri_month_6">جمادى الآخرة</string>
+    <string name="hijri_month_7">رجب</string>
+    <string name="hijri_month_8">شعبان</string>
+    <string name="hijri_month_9">رمضان</string>
+    <string name="hijri_month_10">شوال</string>
+    <string name="hijri_month_11">ذو القعدة</string>
+    <string name="hijri_month_12">ذو الحجة</string>
+    <string name="hijri_year_suffix">هـ</string>
+    <string name="gregorian_year_suffix">م</string>
+
+    <!-- Home Screen -->
+    <string name="home_title">آصف</string>
+    <string name="home_subtitle">تطبيق آصف الإسلامي</string>
+    <string name="home_hourly_verse_title">آية وتدبر الساعة</string>
+    <string name="home_hourly_hadith_title">حديث الساعة النبوية</string>
+    <string name="home_quick_actions">الوصول السريع</string>
+    <string name="home_view_all_prayers">عرض كل المواقيت</string>
+    <string name="home_quran_progress">مواصلة القراءة</string>
+    <string name="home_ai_scholar_banner_title">المستشار الإسلامي الذكي</string>
+    <string name="home_ai_scholar_banner_subtitle">اسأل في علوم القرآن، الفقه، والحديث النبوي</string>
+
+    <!-- Prayer Times Screen -->
+    <string name="prayer_screen_title">مواقيت الصلاة والأذان</string>
+    <string name="prayer_screen_subtitle">حساب دقيق لمواقيت الصلاة مع الأذان والإقامة</string>
+    <string name="prayer_city_label">المدينة المحددة</string>
+    <string name="prayer_change_city">تغيير المدينة</string>
+    <string name="prayer_method_label">طريقة الحساب</string>
+    <string name="prayer_madhhab_label">المذهب الفقهي</string>
+    <string name="prayer_auto_adhan_active">الأذان التلقائي مفعّل</string>
+    <string name="prayer_auto_adhan_inactive">الأذان التلقائي معطّل</string>
+    <string name="prayer_auto_iqama_active">الإقامة التلقائية مفعّلة</string>
+    <string name="prayer_auto_iqama_inactive">الإقامة التلقائية معطّلة</string>
+    <string name="prayer_test_alarm_btn">تشغيل تجريبي للأذان</string>
+
+    <!-- Quran Screen & Detail -->
+    <string name="quran_screen_title">القرآن الكريم</string>
+    <string name="quran_screen_subtitle">المصحف الشريف بالقراءات المعتمدة</string>
+    <string name="quran_search_hint">ابحث باسم السورة، رقمها، أو آية…</string>
+    <string name="quran_riwayah_hafs">رواية حفص عن عاصم</string>
+    <string name="quran_riwayah_warsh">رواية ورش عن نافع</string>
+    <string name="quran_revelation_meccan">مكية</string>
+    <string name="quran_revelation_medinan">مدنية</string>
+    <string name="quran_download_all_offline">تحميل جميع سور القرآن الكريم أوفلاين (114 سورة)</string>
+    <string name="quran_download_all_desc">حفظ تلاوة المصحف كاملاً بدون إنترنت بصوت الشيخ فارس عباد</string>
+    <string name="quran_download_juz_amma">تحميل جزء عمّ كاملاً</string>
+    <string name="quran_surah_offline_ready">السورة جاهزة ومحفوظة أوفلاين</string>
+    <string name="quran_surah_not_offline">السورة بحاجة لتحميل للاستماع أوفلاين</string>
+    <string name="quran_ai_tafsir_btn">تفسير بالذكاء الاصطناعي</string>
+    <string name="quran_bookmarks">العلامات المرجعية</string>
+    <string name="quran_save_bookmark">حفظ علامة القراءة</string>
+    <string name="quran_bookmark_saved">تم حفظ العلامة المرجعية بنجاح</string>
+    <string name="quran_offline_center">مركز التحميل والاستماع أوفلاين</string>
+    <string name="quran_offline_status_count">%1$d / %2$d سورة جاهزة أوفلاين</string>
+    <string name="quran_cancel_download">إلغاء التحميل</string>
+    <string name="quran_reciter_fares_abbad">القارئ: الشيخ فارس عباد</string>
+
+    <!-- Azkar Screen -->
+    <string name="azkar_screen_title">الأذكار النبوية وحصن المسلم</string>
+    <string name="azkar_screen_subtitle">أذكار الصباح والمساء واليوم والليلة</string>
+    <string name="azkar_category_morning">أذكار الصباح</string>
+    <string name="azkar_category_evening">أذكار المساء</string>
+    <string name="azkar_category_sleep">أذكار النوم</string>
+    <string name="azkar_category_prayer">أذكار بعد الصلاة</string>
+    <string name="azkar_category_wake">أذكار الاستيقاظ</string>
+    <string name="azkar_repeat_times">التكرار: %1$d</string>
+    <string name="azkar_remaining_count">متبقي: %1$d</string>
+    <string name="azkar_done">اكتمل بحمد الله</string>
+    <string name="azkar_reset_all">إعادة ضبط العدادات</string>
+
+    <!-- Floating Azkar Service -->
+    <string name="floating_azkar_title">فقاعة الأذكار العائمة</string>
+    <string name="floating_azkar_desc">ظهور أذكار نبوية دورية فوق التطبيقات لتعطير لسانك بذكر الله</string>
+    <string name="floating_azkar_enable">تفعيل الفقاعة العائمة</string>
+    <string name="floating_azkar_disable">إيقاف الفقاعة العائمة</string>
+    <string name="floating_permission_dialog_title">إذن الظهور فوق التطبيقات الأخرى</string>
+    <string name="floating_permission_dialog_msg">لعرض فقاعة الأذكار المباركة العائمة، يحتاج تطبيق آصف إلى إذن العرض فوق التطبيقات الأخرى.</string>
+    <string name="open_settings">فتح الإعدادات</string>
+
+    <!-- Hadith Screen -->
+    <string name="hadith_screen_title">الأحاديث النبوية الشريفة</string>
+    <string name="hadith_screen_subtitle">صحيح البخاري ومسلم مع الشرح والفوائد</string>
+    <string name="hadith_narrator">الراوي: %s</string>
+    <string name="hadith_source">المصدر: %s</string>
+    <string name="hadith_explain_ai">شرح الحديث بالذكاء الاصطناعي</string>
+
+    <!-- AI Scholar Screen -->
+    <string name="scholar_screen_title">المستشار الإسلامي الذكي</string>
+    <string name="scholar_screen_subtitle">استشارات شرعية، تفاسير قرآنية، وشروح حديثية</string>
+    <string name="scholar_input_hint">اكتب استفسارك الشرعي أو سؤالك هنا…</string>
+    <string name="scholar_send_btn">إرسال السؤال</string>
+    <string name="scholar_thinking">المستشار الإسلامي يكتب الإجابة…</string>
+    <string name="scholar_sample_q1">ما فضل قراءة سورة الكهف يوم الجمعة؟</string>
+    <string name="scholar_sample_q2">كيف أحافظ على صلاة الفجر في وقتها؟</string>
+    <string name="scholar_sample_q3">ما هي السنن الرواتب وما أوقاتها؟</string>
+    <string name="scholar_sample_q4">ما حكم صيام الست من شوال؟</string>
+    <string name="scholar_gemini_key_prompt">أدخل مفتاح Gemini API الخاص بك لتفعيل المستشار</string>
+
+    <!-- Tasbih Screen -->
+    <string name="tasbih_screen_title">السبحة الإلكترونية الذكية</string>
+    <string name="tasbih_screen_subtitle">عدّاد الاستغفار والتهليل والتسبيح</string>
+    <string name="tasbih_total_count">إجمالي التسبيح</string>
+    <string name="tasbih_target_count">الهدف: %1$d</string>
+    <string name="tasbih_reset">إعادة العداد</string>
+    <string name="tasbih_vibrate">اهتزاز عند كل تسبيحة</string>
+
+    <!-- Qibla Screen -->
+    <string name="qibla_screen_title">اتجاه القبلة الشريفة</string>
+    <string name="qibla_screen_subtitle">بوصلة دقيقة نحو الكعبة المشرفة بمكة المكرمة</string>
+    <string name="qibla_angle">زاوية القبلة: %1$.1f°</string>
+    <string name="qibla_distance">المسافة إلى مكة: %1$.0f كم</string>
+    <string name="qibla_aligned">أنت الآن في اتجاه الكعبة المشرفة بالضبط</string>
+    <string name="qibla_sensor_missing">حساس البوصلة غير متوفر في جهازك</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">الإعدادات</string>
+    <string name="settings_subtitle">تخصيص التطبيق، المواقيت، الأذان، والمظهر</string>
+    <string name="settings_section_language">اللغة والواجهة</string>
+    <string name="settings_language_label">لغة التطبيق</string>
+    <string name="settings_lang_system">تلقائي (لغة الجهاز)</string>
+    <string name="settings_lang_ar">العربية (Arabic)</string>
+    <string name="settings_lang_en">English (الإنجليزية)</string>
+    <string name="settings_lang_fr">Français (الفرنسية)</string>
+
+    <string name="settings_section_adhan">الأذان والإقامة التلقائية</string>
+    <string name="settings_auto_adhan">تشغيل الأذان تلقائياً عند وقت الصلاة</string>
+    <string name="settings_auto_adhan_desc">تشغيل الأذان بصوت كامل حتى لو كان الهاتف في وضع السكون</string>
+    <string name="settings_auto_iqama">تشغيل التكبيرات عند موعد الإقامة</string>
+    <string name="settings_auto_iqama_desc">تنبيه صوتي بموعد إقامة الصلاة بعد انقضاء دقائق الانتظار</string>
+    <string name="settings_iqama_delay">فارق الإقامة بعد الأذان</string>
+    <string name="settings_iqama_delay_minutes">%1$d دقيقة</string>
+    <string name="settings_selected_adhan_sound">صوت الأذان المختار</string>
+    <string name="settings_selected_iqama_sound">صوت الإقامة المختار</string>
+    <string name="settings_test_adhan_flow">تشغيل تجريبي للأذان (إشعار + صوت)</string>
+
+    <string name="settings_section_notifications">التنبيهات والإشعارات</string>
+    <string name="settings_notif_prayer">إشعارات الصلوات الخمس</string>
+    <string name="settings_notif_iqama">إشعارات وقت الإقامة</string>
+    <string name="settings_notif_morning">إشعار أذكار الصباح</string>
+    <string name="settings_notif_evening">إشعار أذكار المساء</string>
+    <string name="settings_notif_quran">إشعار الورد القرآني</string>
+
+    <string name="settings_section_exact_alarm">إذن التنبيهات الدقيقة (AlarmManager)</string>
+    <string name="settings_exact_alarm_warning">تنبيه: ميزة الأذان التلقائي في وقتها الدقيق تتطلب إذن المنبهات الدقيقة في أندرويد 12 فأعلى. الإذن غير ممنوح حالياً.</string>
+    <string name="settings_grant_exact_alarm">منح إذن المنبه الدقيق الآن</string>
+    <string name="settings_exact_alarm_granted">إذن المنبهات الدقيقة ممنوح ونشط بنجاح ✓</string>
+
+    <string name="settings_time_format">نظام عرض التوقيت ومواقيت الصلاة</string>
+    <string name="settings_time_format_desc">اختر بين نظام 12 ساعة مع مؤشر صباحاً/مساءً (ص/م) أو نظام 24 ساعة المباشر</string>
+    <string name="settings_time_format_12">نظام 12 ساعة (ص / م)</string>
+    <string name="settings_time_format_24">نظام 24 ساعة (00:00 - 23:59)</string>
+    <string name="format_12h_short">12 ساعة</string>
+    <string name="format_24h_short">24 ساعة</string>
+    <string name="format_preview_sample_12">مثال: 05:15 ص • 12:45 م</string>
+    <string name="format_preview_sample_24">مثال: 05:15 • 12:45</string>
+    <string name="time_format_chip_label">نظام الوقت: %s</string>
+    <string name="language_switch_dialog_title">اختر لغة التطبيق (Select Language)</string>
+    <string name="language_active">نشط الآن</string>
+    <string name="language_changed_feedback">تم تغيير لغة التطبيق بنجاح</string>
+    <string name="time_format_changed_feedback">تم تغيير نظام عرض المواقيت</string>
+    <string name="settings_section_appearance">المظهر والسمات</string>
+    <string name="settings_theme_mode">نمط الإضاءة</string>
+    <string name="settings_theme_system">تلقائي (حسب النظام)</string>
+    <string name="settings_theme_light">فاتح (نهار)</string>
+    <string name="settings_theme_dark">داكن (ليل)</string>
+    <string name="settings_color_theme">السمة اللونية</string>
+    <string name="settings_number_format">تنسيق الأرقام</string>
+    <string name="settings_number_format_french">أرقام غربية (1, 2, 3)</string>
+    <string name="settings_number_format_arabic">أرقام عربية مشرقية (١، ٢، ٣)</string>
+
+    <string name="settings_section_gemini">الذكاء الاصطناعي (Gemini AI)</string>
+    <string name="settings_gemini_api_key">مفتاح Google Gemini API مخصص</string>
+    <string name="settings_gemini_test_btn">اختبار اتصال Gemini</string>
+
+    <string name="settings_section_offline_quran">إدارة السور المحملة أوفلاين</string>
+    <string name="settings_offline_quran_count">%1$d / %2$d سورة محملة بدون إنترنت</string>
+    <string name="settings_download_full_quran">تحميل القرآن كاملاً أوفلاين (فارس عباد)</string>
+    <string name="settings_delete_all_offline">حذف جميع الملفات الصوتية لتوفير المساحة</string>
+
+    <string name="settings_section_about">حول التطبيق والمطور</string>
+    <string name="settings_btn_about">حول تطبيق آصف والمطور</string>
+
+    <!-- Plurals -->
+    <plurals name="ayah_count">
+        <item quantity="zero">صفر آية</item>
+        <item quantity="one">آية واحدة</item>
+        <item quantity="two">آيتان</item>
+        <item quantity="few">%d آيات</item>
+        <item quantity="many">%d آية</item>
+        <item quantity="other">%d آية</item>
+    </plurals>
+
+    <plurals name="dhikr_repeat_count">
+        <item quantity="zero">صفر مرة</item>
+        <item quantity="one">مرة واحدة</item>
+        <item quantity="two">مرتان</item>
+        <item quantity="few">%d مرات</item>
+        <item quantity="many">%d مرة</item>
+        <item quantity="other">%d مرة</item>
+    </plurals>
+
+    <plurals name="tasbih_counter_plurals">
+        <item quantity="zero">صفر تسبيحة</item>
+        <item quantity="one">تسبيحة واحدة</item>
+        <item quantity="two">تسبيحتان</item>
+        <item quantity="few">%d تسبيحات</item>
+        <item quantity="many">%d تسبيحة</item>
+        <item quantity="other">%d تسبيحة</item>
+    </plurals>
+
+    <plurals name="minutes_plurals">
+        <item quantity="zero">صفر دقيقة</item>
+        <item quantity="one">دقيقة واحدة</item>
+        <item quantity="two">دقيقتان</item>
+        <item quantity="few">%d دقائق</item>
+        <item quantity="many">%d دقيقة</item>
+        <item quantity="other">%d دقيقة</item>
+    </plurals>
+</resources>

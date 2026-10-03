@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Platform & Info -->
+    <string name="app_name">Asif</string>
+    <string name="app_brand_arabic">Application Islamique Asif</string>
+    <string name="app_tagline">Adhan automatique, Azkar flottants et Savant Islamique IA</string>
+    <string name="app_developer">Mohamed Asif Guerrara</string>
+    <string name="app_developer_title">Conçu et développé par : Mohamed Asif Guerrara</string>
+    <string name="app_developer_desc">Ingénieur logiciels et applications Android • Algérie</string>
+    <string name="app_version_label">Version 1.0.0 • Asif Islamic App</string>
+    <string name="app_about_title">À propos de l’application Asif</string>
+    <string name="app_about_description">Une application islamique complète conçue pour accompagner le musulman jour et nuit : calcul précis des horaires de prière, lecture automatique de l’Adhan et de l’Iqama, Saint Coran avec lectures et téléchargement hors-ligne complet, invocations flottantes sur l’écran, et savant islamique intelligent par intelligence artificielle.</string>
+    <string name="share_app_text">Application Islamique Asif - Votre compagnon quotidien pour les prières, le Coran et les Azkar : Adhan automatique, invocations flottantes et savant islamique IA. Développé par Mohamed Asif Guerrara.</string>
+    <string name="share_app_title">Partager l’application Asif</string>
+    <string name="close">Fermer</string>
+    <string name="cancel">Annuler</string>
+    <string name="ok">OK</string>
+    <string name="save">Enregistrer</string>
+    <string name="delete">Supprimer</string>
+    <string name="confirm">Confirmer</string>
+    <string name="back">Retour</string>
+    <string name="home">Accueil</string>
+    <string name="search">Rechercher</string>
+    <string name="copy">Copier</string>
+    <string name="copied_to_clipboard">Copié dans le presse-papiers avec succès</string>
+    <string name="share">Partager</string>
+    <string name="retry">Réessayer</string>
+    <string name="loading">Chargement en cours…</string>
+    <string name="success">Opération réussie</string>
+
+    <!-- Notification Channels -->
+    <string name="channel_adhan_name">Adhan et Horaires de Prière</string>
+    <string name="channel_adhan_desc">Alertes pour les prières obligatoires avec lecture automatique de l’Adhan</string>
+    <string name="channel_iqama_name">Alertes de l’Iqama</string>
+    <string name="channel_iqama_desc">Alertes pour la congrégation de la prière avec takbeerat</string>
+    <string name="channel_azkar_name">Azkar et Rappels</string>
+    <string name="channel_azkar_desc">Rappels quotidiens des invocations du matin et du soir</string>
+    <string name="channel_quran_name">Rappel de Lecture du Coran</string>
+    <string name="channel_quran_desc">Rappel quotidien pour la récitation et la méditation du Coran</string>
+    <string name="channel_overlay_name">Bulle d’Invocations Flottante</string>
+    <string name="channel_overlay_desc">Service d’affichage du widget d’invocations par-dessus les autres applications</string>
+
+    <!-- Notifications Actions & Titles -->
+    <string name="stop_audio">Arrêter l’audio</string>
+    <string name="stop_adhan">Arrêter l’Adhan</string>
+    <string name="prayer_now_title">C’est l’heure de l’Adhan de %s</string>
+    <string name="prayer_now_text">Heure de la prière de %1$s (%2$s) %3$s</string>
+    <string name="prayer_auto_playing_tag">• Lecture automatique de l’Adhan</string>
+    <string name="iqama_now_title">C’est l’heure de l’Iqama de %s</string>
+    <string name="iqama_now_text">Iqama pour %1$s (%2$s) %3$s</string>
+    <string name="iqama_auto_playing_tag">• Lecture automatique des takbeerat</string>
+    <string name="morning_azkar_title">Bénies Invocations du Matin</string>
+    <string name="evening_azkar_title">Bénies Invocations du Soir</string>
+    <string name="quran_reminder_title">Votre lecture quotidienne du Coran</string>
+
+    <!-- Navigation Bar Items -->
+    <string name="nav_home">Accueil</string>
+    <string name="nav_prayer_times">Prières</string>
+    <string name="nav_quran">Coran</string>
+    <string name="nav_azkar">Azkar</string>
+    <string name="nav_ai_scholar">Savant IA</string>
+
+    <!-- Drawer / Quick Tools -->
+    <string name="tool_qibla">Qibla</string>
+    <string name="tool_tasbih">Tasbih</string>
+    <string name="tool_hadith">Hadiths</string>
+    <string name="tool_settings">Paramètres</string>
+    <string name="tool_floating_azkar">Azkar Flottants</string>
+
+    <!-- Prayers Names -->
+    <string name="prayer_fajr">Fajr</string>
+    <string name="prayer_sunrise">Chourouk</string>
+    <string name="prayer_dhuhr">Dhohr</string>
+    <string name="prayer_asr">Asr</string>
+    <string name="prayer_maghrib">Maghreb</string>
+    <string name="prayer_isha">Icha</string>
+    <string name="prayer_iqama">Iqama</string>
+    <string name="next_prayer">Prochaine Prière</string>
+    <string name="time_remaining">Restant</string>
+    <string name="time_passed">Écoulé</string>
+    <string name="iqama_after">Iqama dans</string>
+    <string name="now">Maintenant</string>
+
+    <!-- Hijri Months -->
+    <string name="hijri_month_1">Mouharram</string>
+    <string name="hijri_month_2">Safar</string>
+    <string name="hijri_month_3">Rabi al-Awwal</string>
+    <string name="hijri_month_4">Rabi ath-Thani</string>
+    <string name="hijri_month_5">Joumada al-Oula</string>
+    <string name="hijri_month_6">Joumada ath-Thania</string>
+    <string name="hijri_month_7">Rajab</string>
+    <string name="hijri_month_8">Chaabane</string>
+    <string name="hijri_month_9">Ramadan</string>
+    <string name="hijri_month_10">Chawwal</string>
+    <string name="hijri_month_11">Dhou al-Qada</string>
+    <string name="hijri_month_12">Dhou al-Hijja</string>
+    <string name="hijri_year_suffix">H</string>
+    <string name="gregorian_year_suffix">ap. J.-C.</string>
+
+    <!-- Home Screen -->
+    <string name="home_title">Asif</string>
+    <string name="home_subtitle">Compagnon Islamique</string>
+    <string name="home_hourly_verse_title">Verset et Méditation de l’Heure</string>
+    <string name="home_hourly_hadith_title">Hadith Prophétique de l’Heure</string>
+    <string name="home_quick_actions">Accès Rapide</string>
+    <string name="home_view_all_prayers">Voir tous les horaires</string>
+    <string name="home_quran_progress">Reprendre la lecture</string>
+    <string name="home_ai_scholar_banner_title">Savant Islamique Intelligent (IA)</string>
+    <string name="home_ai_scholar_banner_subtitle">Posez vos questions sur le Coran, le Fiqh et le Hadith</string>
+
+    <!-- Prayer Times Screen -->
+    <string name="prayer_screen_title">Horaires de Prière et Adhan</string>
+    <string name="prayer_screen_subtitle">Calcul précis avec alertes Adhan et Iqama</string>
+    <string name="prayer_city_label">Ville sélectionnée</string>
+    <string name="prayer_change_city">Changer de ville</string>
+    <string name="prayer_method_label">Méthode de calcul</string>
+    <string name="prayer_madhhab_label">École juridique (Madhhab)</string>
+    <string name="prayer_auto_adhan_active">Adhan automatique activé</string>
+    <string name="prayer_auto_adhan_inactive">Adhan automatique désactivé</string>
+    <string name="prayer_auto_iqama_active">Iqama automatique activée</string>
+    <string name="prayer_auto_iqama_inactive">Iqama automatique désactivée</string>
+    <string name="prayer_test_alarm_btn">Tester l’Adhan (Audio et Notification)</string>
+
+    <!-- Quran Screen & Detail -->
+    <string name="quran_screen_title">Le Saint Coran</string>
+    <string name="quran_screen_subtitle">Noble Coran avec récitations authentiques</string>
+    <string name="quran_search_hint">Rechercher par sourate, numéro ou verset…</string>
+    <string name="quran_riwayah_hafs">Hafs d’après Asim</string>
+    <string name="quran_riwayah_warsh">Warsh d’après Nafi</string>
+    <string name="quran_revelation_meccan">Mecquoise</string>
+    <string name="quran_revelation_medinan">Médinoise</string>
+    <string name="quran_download_all_offline">Télécharger les 114 sourates hors-ligne</string>
+    <string name="quran_download_all_desc">Conserver la récitation complète sans internet par Cheikh Fares Abbad</string>
+    <string name="quran_download_juz_amma">Télécharger Juz Amma complet (Partie 30)</string>
+    <string name="quran_surah_offline_ready">Sourate enregistrée et disponible hors-ligne</string>
+    <string name="quran_surah_not_offline">Sourate nécessitant un téléchargement pour l’écoute hors-ligne</string>
+    <string name="quran_ai_tafsir_btn">Tafsir Coranique par IA</string>
+    <string name="quran_bookmarks">Signets</string>
+    <string name="quran_save_bookmark">Enregistrer le signet de lecture</string>
+    <string name="quran_bookmark_saved">Signet enregistré avec succès</string>
+    <string name="quran_offline_center">Centre de Téléchargement Hors-ligne</string>
+    <string name="quran_offline_status_count">%1$d / %2$d sourates prêtes hors-ligne</string>
+    <string name="quran_cancel_download">Annuler le téléchargement</string>
+    <string name="quran_reciter_fares_abbad">Récitateur : Cheikh Fares Abbad</string>
+
+    <!-- Azkar Screen -->
+    <string name="azkar_screen_title">Azkar et Invocations Prophétiques</string>
+    <string name="azkar_screen_subtitle">Invocations du matin, du soir et de la journée</string>
+    <string name="azkar_category_morning">Invocations du matin</string>
+    <string name="azkar_category_evening">Invocations du soir</string>
+    <string name="azkar_category_sleep">Invocations avant de dormir</string>
+    <string name="azkar_category_prayer">Invocations après la prière</string>
+    <string name="azkar_category_wake">Invocations du réveil</string>
+    <string name="azkar_repeat_times">Répétitions : %1$d</string>
+    <string name="azkar_remaining_count">Restant : %1$d</string>
+    <string name="azkar_done">Terminé, louange à Allah</string>
+    <string name="azkar_reset_all">Réinitialiser les compteurs</string>
+
+    <!-- Floating Azkar Service -->
+    <string name="floating_azkar_title">Bulle d’Invocations Flottante</string>
+    <string name="floating_azkar_desc">Affichage périodique d’invocations par-dessus les applications pour garder votre langue humide du rappel d’Allah</string>
+    <string name="floating_azkar_enable">Activer le widget flottant</string>
+    <string name="floating_azkar_disable">Désactiver le widget flottant</string>
+    <string name="floating_permission_dialog_title">Permission d’affichage par-dessus les applications</string>
+    <string name="floating_permission_dialog_msg">Pour afficher la bulle d’invocations flottante au-dessus des autres applications, Asif a besoin de la permission de superposition d’écran.</string>
+    <string name="open_settings">Ouvrir les Paramètres</string>
+
+    <!-- Hadith Screen -->
+    <string name="hadith_screen_title">Nobles Hadiths Prophétiques</string>
+    <string name="hadith_screen_subtitle">Sahih Al-Bukhari et Muslim avec explications</string>
+    <string name="hadith_narrator">Rapporteur : %s</string>
+    <string name="hadith_source">Source : %s</string>
+    <string name="hadith_explain_ai">Expliquer le Hadith avec l’IA</string>
+
+    <!-- AI Scholar Screen -->
+    <string name="scholar_screen_title">Savant Islamique Intelligent (IA)</string>
+    <string name="scholar_screen_subtitle">Consultations religieuses, exégèse coranique et explications de hadiths</string>
+    <string name="scholar_input_hint">Écrivez votre question ou consultation islamique ici…</string>
+    <string name="scholar_send_btn">Envoyer la question</string>
+    <string name="scholar_thinking">Le savant islamique rédige la réponse…</string>
+    <string name="scholar_sample_q1">Quel est le mérite de réciter la sourate Al-Kahf le vendredi ?</string>
+    <string name="scholar_sample_q2">Comment préserver la prière du Fajr à l’heure ?</string>
+    <string name="scholar_sample_q3">Quelles sont les prières surérogatoires (Sunan Rawatib) et leurs horaires ?</string>
+    <string name="scholar_sample_q4">Quel est le statut du jeûne des six jours de Chawwal ?</string>
+    <string name="scholar_gemini_key_prompt">Entrez votre clé API Google Gemini pour activer le savant</string>
+
+    <!-- Tasbih Screen -->
+    <string name="tasbih_screen_title">Chapelet Électronique Intelligent (Tasbih)</string>
+    <string name="tasbih_screen_subtitle">Compteur d’Istighfar, de Dhikr et de glorification</string>
+    <string name="tasbih_total_count">Total des louanges</string>
+    <string name="tasbih_target_count">Objectif : %1$d</string>
+    <string name="tasbih_reset">Réinitialiser le compteur</string>
+    <string name="tasbih_vibrate">Vibration à chaque clic</string>
+
+    <!-- Qibla Screen -->
+    <string name="qibla_screen_title">Direction de la Noble Qibla</string>
+    <string name="qibla_screen_subtitle">Boussole précise vers la Sainte Kaaba à La Mecque</string>
+    <string name="qibla_angle">Angle de la Qibla : %1$.1f°</string>
+    <string name="qibla_distance">Distance vers La Mecque : %1$.0f km</string>
+    <string name="qibla_aligned">Vous êtes orienté exactement vers la Sainte Kaaba</string>
+    <string name="qibla_sensor_missing">Le capteur de boussole n’est pas disponible sur cet appareil</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">Paramètres</string>
+    <string name="settings_subtitle">Personnaliser l’application, les horaires, l’Adhan et l’apparence</string>
+    <string name="settings_section_language">Langue et Interface</string>
+    <string name="settings_language_label">Langue de l’application</string>
+    <string name="settings_lang_system">Par défaut du système</string>
+    <string name="settings_lang_ar">العربية (Arabe)</string>
+    <string name="settings_lang_en">English (Anglais)</string>
+    <string name="settings_lang_fr">Français</string>
+
+    <string name="settings_section_adhan">Adhan et Iqama Automatiques</string>
+    <string name="settings_auto_adhan">Jouer l’Adhan automatiquement à l’heure de la prière</string>
+    <string name="settings_auto_adhan_desc">Jouer l’Adhan complet même si le téléphone est en mode veille</string>
+    <string name="settings_auto_iqama">Jouer les takbeerat à l’heure de l’Iqama</string>
+    <string name="settings_auto_iqama_desc">Rappel sonore à la fin du temps d’attente pour la prière en groupe</string>
+    <string name="settings_iqama_delay">Délai d’Iqama après l’Adhan</string>
+    <string name="settings_iqama_delay_minutes">%1$d minutes</string>
+    <string name="settings_selected_adhan_sound">Voix d’Adhan choisie</string>
+    <string name="settings_selected_iqama_sound">Voix d’Iqama choisie</string>
+    <string name="settings_test_adhan_flow">Tester l’Adhan (Audio et Notification)</string>
+
+    <string name="settings_section_notifications">Notifications et Alertes</string>
+    <string name="settings_notif_prayer">Notifications des cinq prières quotidiennes</string>
+    <string name="settings_notif_iqama">Notifications de l’heure de l’Iqama</string>
+    <string name="settings_notif_morning">Rappel des invocations du matin</string>
+    <string name="settings_notif_evening">Rappel des invocations du soir</string>
+    <string name="settings_notif_quran">Rappel de lecture du Coran</string>
+
+    <string name="settings_section_exact_alarm">Permission d’Alarmes Exactes</string>
+    <string name="settings_exact_alarm_warning">Remarque : La ponctualité de l’Adhan automatique nécessite la permission d’alarmes exactes sur Android 12+. La permission n’est pas encore accordée.</string>
+    <string name="settings_grant_exact_alarm">Accorder la permission maintenant</string>
+    <string name="settings_exact_alarm_granted">Permission d’alarmes exactes accordée et active ✓</string>
+
+    <string name="settings_time_format">Format d\'Affichage de l\'Heure</string>
+    <string name="settings_time_format_desc">Choisissez entre le format 12 heures avec AM/PM ou le format 24 heures</string>
+    <string name="settings_time_format_12">Format 12 Heures (AM / PM)</string>
+    <string name="settings_time_format_24">Format 24 Heures (00:00 - 23:59)</string>
+    <string name="format_12h_short">12 Heures</string>
+    <string name="format_24h_short">24 Heures</string>
+    <string name="format_preview_sample_12">Exemple: 05:15 AM • 12:45 PM</string>
+    <string name="format_preview_sample_24">Exemple: 05:15 • 12:45</string>
+    <string name="time_format_chip_label">Format d\'heure: %s</string>
+    <string name="language_switch_dialog_title">Choisir la Langue de l\'Application</string>
+    <string name="language_active">Actif</string>
+    <string name="language_changed_feedback">Langue de l\'application modifiée avec succès</string>
+    <string name="time_format_changed_feedback">Format des horaires de prière mis à jour</string>
+
+    <string name="settings_section_appearance">Apparence et Thèmes</string>
+    <string name="settings_theme_mode">Mode d’éclairage</string>
+    <string name="settings_theme_system">Système</string>
+    <string name="settings_theme_light">Clair</string>
+    <string name="settings_theme_dark">Sombre</string>
+    <string name="settings_color_theme">Palette de couleurs</string>
+    <string name="settings_number_format">Format des chiffres</string>
+    <string name="settings_number_format_french">Chiffres occidentaux (1, 2, 3)</string>
+    <string name="settings_number_format_arabic">Chiffres arabes orientaux (١، ٢، ٣)</string>
+
+    <string name="settings_section_gemini">Intelligence Artificielle (Gemini AI)</string>
+    <string name="settings_gemini_api_key">Clé API Google Gemini personnalisée</string>
+    <string name="settings_gemini_test_btn">Tester la connexion Gemini</string>
+
+    <string name="settings_section_offline_quran">Gérer les sourates hors-ligne</string>
+    <string name="settings_offline_quran_count">%1$d / %2$d sourates téléchargées hors-ligne</string>
+    <string name="settings_download_full_quran">Télécharger tout le Coran hors-ligne (Fares Abbad)</string>
+    <string name="settings_delete_all_offline">Supprimer tous les fichiers audio pour libérer de l’espace</string>
+
+    <string name="settings_section_about">À propos de l’application et du développeur</string>
+    <string name="settings_btn_about">À propos d’Asif et du développeur</string>
+
+    <!-- Plurals -->
+    <plurals name="ayah_count">
+        <item quantity="one">%d verset</item>
+        <item quantity="other">%d versets</item>
+    </plurals>
+
+    <plurals name="dhikr_repeat_count">
+        <item quantity="one">%d fois</item>
+        <item quantity="other">%d fois</item>
+    </plurals>
+
+    <plurals name="tasbih_counter_plurals">
+        <item quantity="one">%d glorification</item>
+        <item quantity="other">%d glorifications</item>
+    </plurals>
+
+    <plurals name="minutes_plurals">
+        <item quantity="one">%d minute</item>
+        <item quantity="other">%d minutes</item>
+    </plurals>
+</resources>

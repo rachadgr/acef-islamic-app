@@ -1,0 +1,7 @@
+# Copy this file to key.properties and fill in your release keystore details.
+# The release build automatically falls back to the debug keystore when this
+# file is missing, so local builds always succeed.
+storeFile=/absolute/path/to/release-key.jks
+storePassword=YOUR_STORE_PASSWORD
+keyAlias=acef
+keyPassword=YOUR_KEY_PASSWORD

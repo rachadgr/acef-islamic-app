@@ -1,0 +1,6 @@
+{
+  "name": "آصف",
+  "description": "تطبيق آصف الإسلامي: تشغيل الأذان تلقائياً عند وقت الصلاة والإقامة، فقاعة عائمة للأذكار فوق التطبيقات، وتفسير الآيات والأحاديث بالذكاء الاصطناعي. إعداد وتطوير: محمد آصف ڨرارة.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
