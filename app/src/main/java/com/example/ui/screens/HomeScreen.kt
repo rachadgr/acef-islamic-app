@@ -574,6 +574,17 @@ fun HomeScreen(
                     )
                 }
 
+                // Flagship experience: آصف — the Gemini-style wisdom companion
+                Row(modifier = Modifier.fillMaxWidth()) {
+                    QuickActionCard(
+                        title = "آصف — الحكمة في كل آية",
+                        subtitle = "رفيقك الحكيم بأسلوب Gemini",
+                        icon = Icons.Default.AutoAwesome,
+                        modifier = Modifier.weight(1f),
+                        onClick = { onNavigate("asif") }
+                    )
+                }
+
                 Row(
                     modifier = Modifier.fillMaxWidth(),
                     horizontalArrangement = Arrangement.spacedBy(10.dp)

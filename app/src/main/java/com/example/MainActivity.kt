@@ -365,7 +365,8 @@ fun AcefMainApp(viewModel: AcefViewModel) {
         modifier = Modifier.fillMaxSize(),
         containerColor = androidx.compose.ui.graphics.Color.Transparent,
         topBar = {
-            if (selectedSurah == null) {
+            // The آصف screen is an immersive Gemini-style experience: no top bar.
+            if (selectedSurah == null && currentRoute != "asif") {
                 AcefTopBar(
                     title = topBarTitle,
                     subtitle = topBarSubtitle,
@@ -405,7 +406,8 @@ fun AcefMainApp(viewModel: AcefViewModel) {
             }
         },
         bottomBar = {
-            if (selectedSurah == null) {
+            // The آصف screen owns the full viewport: no bottom navigation.
+            if (selectedSurah == null && currentRoute != "asif") {
                 Column(
                     modifier = Modifier
                         .fillMaxWidth()
@@ -443,6 +445,9 @@ fun AcefMainApp(viewModel: AcefViewModel) {
                 currentRoute == "home" -> HomeScreen(
                     viewModel = viewModel,
                     onNavigate = { route -> viewModel.navigateTo(route) }
+                )
+                currentRoute == "asif" -> AsifScreen(
+                    onOpenDrawer = { viewModel.navigateTo("home") }
                 )
                 currentRoute == "prayer_times" -> PrayerTimesScreen(viewModel = viewModel)
                 currentRoute == "quran" -> QuranScreen(
